@@ -30,14 +30,14 @@ html, body
 
     html, body
     {
-        background-size: unset;
-        background-position:unset;
+        background-size: cover;
+        background-position:center;
     }
     
     #ourmanna-verse
-{
+    {
     top: 25% !important;   
-}
+    }
 }
 footer
 {
