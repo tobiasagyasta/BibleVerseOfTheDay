@@ -26,7 +26,7 @@ function displayFoundVerseFromAPI(foundVerse)
 {
     let reference = foundVerse.details.reference;
     let text = foundVerse.details.text;
-    ourmannaVerse.innerHTML = `<span>${reference}: <br> ${text}</span>`;
+    ourmannaVerse.innerHTML = `<span id ="referenceSpan">${reference}</span> <span id = "textSpan">${text}</span>`;
 }
 
 async function getImage()
