@@ -16,15 +16,29 @@
     font-style: italic;
   }
 
-body
+html, body
 {
+    height: 100%;
     display: flex;
     background-repeat: no-repeat;
-    background-size: cover;
     align-items: center;
     justify-content: center;
+    background-size:cover;
+    background-position:center;
 }
+@media screen and (max-width: 760px) {
 
+    html, body
+    {
+        background-size: unset;
+        background-position:unset;
+    }
+    
+    #ourmanna-verse
+{
+    top: 25% !important;   
+}
+}
 footer
 {
     color: white;
