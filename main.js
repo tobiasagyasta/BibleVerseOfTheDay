@@ -11,7 +11,7 @@ window.addEventListener("load", function()
 async function getVerse()
 {
     try {
-        const response = await fetch("https://beta.ourmanna.com/api/v1/get?format=json&order=random");
+        const response = await fetch("https://beta.ourmanna.com/api/v1/get?format=json&order=daily");
         const verse = await response.json();
         console.log(verse.verse);
         return verse.verse;    
